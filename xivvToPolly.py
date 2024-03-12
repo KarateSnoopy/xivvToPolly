@@ -140,6 +140,7 @@ def run():
     # run this batch file before running this script
 
     session = Session(region_name="us-west-1") # change to your region as desired
+    global polly
     polly = session.client("polly")
     pygame.init()
     pygame.mixer.init()
