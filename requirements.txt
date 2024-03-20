@@ -1,0 +1,4 @@
+boto3 >= 1.34.66
+pygame >= 2.5.2
+global_hotkeys >= 0.1.6
+websocket-client >= 1.7.0
